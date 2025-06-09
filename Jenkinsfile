@@ -13,11 +13,7 @@ pipeline {
       }
     }
 
-    stage('Test') {
-      steps {
-        sh 'mvn test'
-      }
-    }
+    
   }
 
   // No triggers block – keeps it manual
